@@ -21,31 +21,32 @@ We use the [Home Credit dataset](https://www.kaggle.com/competitions/home-credit
 ```
 project-root/
 │
+├── README.md           # Project overview (what, why, how, results)
+├── LICENSE             # License file (MIT)
+├── requirements        # All dependencies
+│
 ├── deploy/              # Deployment files (Flask app, Docker, configs)
 │   ├── app.py
 │   ├── requirements.txt
 |   ├── Dockerfile
 │   └── other files 
-|   
 │
 ├── data/                # Data utils + results
-│   ├── utils_modeling.py, utils_EDA.py    
-│   ├── requirements
+│   ├── utils_modeling.py    
+│   ├── utils_EDA.py 
 │   ├── Optuna_lgbm_xgb_goggle_colab.ipynb
-│   ├── LICENSE
 │   └── results            
 │
 ├── eda/                 # Automated reports (Sweetviz, YData)
-│   ├── EDA notebooks for additional datasets   
-│   ├── Automated reports (Sweetviz, YData)
+│   ├── EDA_for_additional_datasets/ 
+│   ├── sweetviz_reports/
+│   └── ydata_reports/
 │
-├── notebooks/           # Main analysis notebooks
-│   ├── 01_EDA_train_test.ipynb
-│   ├── 02_Modeling.ipynb
-│   ├── 03_Investigation_plan.ipynb
-│   └── 04_POC.ipynb
-│
-└── README.md
+└── notebooks/           # Jupyter notebooks for main workflow
+    ├── 01_EDA_train_test.ipynb
+    ├── 02_Modeling.ipynb
+    ├── 03_Investigation_plan.ipynb
+    └── 04_POC.ipynb
 
 ```
 
@@ -61,7 +62,7 @@ project-root/
 2. Install dependencies:
 
    ```bash
-   pip install -r deploy/requirements.txt
+   pip install -r requirements.txt
    ```
 
 ## Workflow
