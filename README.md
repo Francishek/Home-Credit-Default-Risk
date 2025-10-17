@@ -56,7 +56,7 @@ project-root/
 
    Link [GitHub](https://github.com/Francishek/Home-Credit-Default-Risk) or
    ```bash
-   git clone https://https://github.com/Francishek/Home-Credit-Default-Risk
+   git clone https://github.com/Francishek/Home-Credit-Default-Risk
    cd project-root
    ```
 2. Install dependencies:
