@@ -1,0 +1,35 @@
+# Create the test.json file with proper content
+@'
+{
+    "application": [
+        {
+            "SK_ID_CURR": 100001,
+            "DAYS_BIRTH": -12000,
+            "AMT_INCOME_TOTAL": 100000,
+            "AMT_CREDIT": 500000,
+            "AMT_ANNUITY": 25000,
+            "AMT_GOODS_PRICE": 450000,
+            "NAME_INCOME_TYPE": "Working",
+            "NAME_EDUCATION_TYPE": "Higher education",
+            "NAME_FAMILY_STATUS": "Married",
+            "NAME_HOUSING_TYPE": "House / apartment",
+            "REGION_POPULATION_RELATIVE": 0.01,
+            "DAYS_EMPLOYED": -2000,
+            "DAYS_REGISTRATION": -3000,
+            "DAYS_ID_PUBLISH": -1000,
+            "OWN_CAR_AGE": 5,
+            "CNT_FAM_MEMBERS": 3,
+            "CNT_CHILDREN": 1
+        }
+    ],
+    "bureau": [],
+    "bureau_balance": [],
+    "prev_app": [],
+    "installments": [],
+    "credit_card_balance": [],
+    "pos_cash": []
+}
+'@ | Set-Content -Path test.json
+
+# Verify the file was created
+Get-Content test.json

@@ -1,0 +1,10 @@
+{
+    "best_value": 0.7874301437008253,
+    "best_params": {
+        "learning_rate": 0.051778087186019034,
+        "max_depth": 4,
+        "min_child_weight": 18,
+        "subsample": 0.729936556487968,
+        "colsample_bytree": 0.7405870568750555
+    }
+}
