@@ -54,9 +54,9 @@ project-root/
 
 1. Clone the repo:
 
-   Link [GitHub](https://github.com/TuringCollegeSubmissions/fverko-DS.v2.5.3.4.1) or
+   Link [GitHub](https://github.com/Francishek/Home-Credit-Default-Risk) or
    ```bash
-   git clone https://github.com/TuringCollegeSubmissions/fverko-DS.v2.5.3.4.1.git
+   git clone https://https://github.com/Francishek/Home-Credit-Default-Risk
    cd project-root
    ```
 2. Install dependencies:
