@@ -1,5 +1,3 @@
-# DS.v2.5.3.4.1
-
 # Risk Evaluation as a Service – POC
 
 This project is a **proof-of-concept (POC)** for a startup idea: providing **risk evaluation as a service** for retail banks.
